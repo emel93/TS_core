@@ -19,5 +19,5 @@ interface IPerson {
   
   somePerson.firstName = "Семен";
   somePerson.lastName = "Журавлев";
-  somePerson.hometown = "Питербург";
+  somePerson.hometown = "Петербург";
   

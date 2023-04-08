@@ -1,4 +1,4 @@
-// 1. Функция formatedUserData принимает ряд
+// 1. Функция formattedUserData принимает ряд
 // аргументов и выводит форматированную
 // информацию о пользователе. Опишите
 // аргументы этой функции таким образом,
@@ -7,7 +7,7 @@
 // информации о юзере было указано
 // "Нет данных"
 
-function formatedUserData() {
+function formattedUserData() {
     return `
       Имя: ${firstName};
       Фамилия: ${lastName};
@@ -16,8 +16,8 @@ function formatedUserData() {
     `;
   }
   
-  // 2. Ниже перепишите функцию formatedUserData таким
+  // 2. Ниже перепишите функцию formattedUserData2 таким
   // образом чтобы данные выводились в консоль
   
-  function formatedUserData2() {}
+  function formattedUserData2() {}
   

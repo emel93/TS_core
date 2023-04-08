@@ -7,12 +7,12 @@ interface IUser {
   }
   
   
-  // IUser - модель данных юзера. IRetingUserItem 
+  // IUser - модель данных юзера. IRatingUserItem 
   // - модель данных юзера в рейтинге пользователей.
   // Типы одноименных полей в обоих интерфейсах 
   // совпадают. Укажите типы полей. 
   
-  interface IRetingUserItem {
+  interface IRatingUserItem {
     position:
     login:
     rating: 

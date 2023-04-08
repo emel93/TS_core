@@ -12,7 +12,7 @@ interface IRoom {
   interface IKitchen {
     width: number;
     height: number;
-    cheirsCount: number;
+    chairsCount: number;
     hasPlants: boolean;
     stoveType: stoveType;
   }

@@ -5,10 +5,10 @@ interface IUserData {
     hometown: string;
   }
   
-  // Измените тип аргумента data в функции formatedUserData
+  // Измените тип аргумента data в функции formattedUserData
   // таким образом чтобы ее вызов ниже не вызывал ошибку
   
-  function formatedUserData(data: IUserData): string {
+  function formattedUserData(data: IUserData): string {
     return `
       Имя: ${data.firstName};
       Фамилия: ${data.lastName};
@@ -18,7 +18,7 @@ interface IUserData {
   }
   
   console.log(
-    formatedUserData({
+    formattedUserData({
       firstName: "Амир",
       age: 25,
       hometown: "Грозный"
